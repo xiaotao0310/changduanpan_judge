@@ -20,7 +20,7 @@ import baostock as bs
 import akshare as ak
 
 # ==================== 页面配置 ====================
-st.set_page_config(page_title="长短判断器 · 五维三阶诊断", layout="wide")
+st.set_page_config(page_title="时轮辨龙尺", layout="wide")
 
 # ==================== 安全读取 API Key ====================
 try:
@@ -663,7 +663,7 @@ def run_diagnosis(
         return f"❌ AI 分析失败：{str(e)}"
 
 # ==================== 界面 ====================
-st.title("📊 长短判断器 · 五维三阶诊断系统")
+st.title("📊 时轮辨龙尺")
 st.caption("输入股票代码，AI 自动获取数据并生成诊断报告")
 
 st.markdown("---")
